@@ -11,7 +11,8 @@ namespace Snake_Game_Jan26
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            // Start the application with the main menu so the game only starts when the user presses Play
+            Application.Run(new MainMenu());
         }
     }
 }
